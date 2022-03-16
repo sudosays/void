@@ -31,6 +31,7 @@
   (focus-mode 0)
   (display-line-numbers-mode))
 
+;;;###autoload
 (define-minor-mode void-mode
   "A mode for complete distraction-free writing."
   :init-value nil
