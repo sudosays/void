@@ -1,0 +1,24 @@
+* Void
+
+#+begin_quote
+"Let go your earthly tether. Enter the void. Empty and become wind."
+--- Guru Laghima
+#+end_quote
+
+Void combines two packages, [[https://github.com/larstvei/Focus][focus]] and [[https://github.com/joostkremers/writeroom-mode][writeroom]], to create a writing mode that
+is devoid of all disctractions.
+
+It is mainly built for Doom Emacs (using the doom themes), but should be okay to
+work for your flavour of Emacs.
+
+** Installation
+
+With Doom Emacs:
+#+begin_src emacs-lisp
+(package! void
+  :recipe (:host github :repo "sudoays/void"))
+#+end_src
+
+With MELPA (TBD).
+
+** Customisation
