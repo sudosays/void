@@ -17,10 +17,6 @@
   nil
   "We remember the old theme for when void is deactivated.")
 
-(defvar void-width
-  60
-  "This is used to adjust the writeroom width.")
-
 (defun enter-void ()
   "Set up the void-mode by activating the tools."
   (set 'void-old-theme (symbol-value 'doom-theme))
